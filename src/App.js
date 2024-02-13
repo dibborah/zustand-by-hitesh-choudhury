@@ -1,7 +1,17 @@
+import CourseForm from "./components/CourseForm";
+
 const App = () => {
   return (
-    <div>
-      <h1>App</h1>
+    <div className="main-container">
+      <h1
+        style={{
+          fontSize: "2.5rem",
+          marginBottom: "2rem",
+        }}
+      >
+        My Course List
+      </h1>
+      <CourseForm />
     </div>
   );
 };
